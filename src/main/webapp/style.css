@@ -1,0 +1,110 @@
+*{
+    font-family: 'Patua One', cursive;
+}
+.rggroups{
+    padding: 30px 0px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    border: 2px solid #222222;
+    box-shadow: 0 0 10px;
+}
+
+.choose{
+    margin: auto;
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+}
+
+#h1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.loginp{
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+    color: grey;
+    width: 100%;
+    border: none;
+    height: 50px;
+    font-size: 25px;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    padding: 15px 0;
+    font-size: 25px;
+    background-color: lightgreen;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    transition:all.5s ease;
+    -webkit-appearance: none;
+    border: 1px solid #222222;
+}
+.button:hover{
+    background: white;
+    transform: scale(1.1);
+}
+
+.button-block {
+    width: 100%;
+}
+.forgot {
+    text-align: right;
+}
+.forgot a{
+    color: grey;
+}
+
+#Oeye{
+    display: block; background: white;
+}
+#Ceye{
+    display: none; background: white;
+}
+#checkemail{
+    border-radius: 10px;
+    margin-top:10px;
+}
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+th {
+    padding: 10px 20px;
+    background: #56433D;
+    color: #F9C941;
+    border-right: 2px solid;
+    font-size: 1.3em;
+}
+th:first-child {
+    text-align: left;
+}
+th:last-child {
+    border-right: none;
+}
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;
+}
+td:first-child {
+    border-left: 2px solid #56433D;
+    border-right: none;
+}
+td:nth-child(2){
+    text-align: left;
+}
